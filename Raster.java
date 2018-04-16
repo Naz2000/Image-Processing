@@ -17,7 +17,7 @@ public class Raster {
 			int width = 512;
 			int height = 384;
 			File f = null;
-			f = new File("C:\\Users\\Nazanin\\Desktop\\program\\Lymphocytes1.jpg");
+			f = new File("Lymphocytes1.jpg");
 			// BufferedImage image = new BufferedImage(width,height,BufferedImage.TYPE_INT_RGB);
 			BufferedImage image = ImageIO.read(f);
 			 width = image.getWidth() ;
@@ -178,7 +178,7 @@ public class Raster {
 				 
 
 //***************************************write image***************************************					 
-					f = new File("C:\\Users\\Nazanin\\workspace\\summer project\\Lymphocytes8.jpg"); //output file path
+					f = new File("Lymphocytes8.jpg"); //output file path
 				    ImageIO. write(imgout6, "jpg", f) ;
 				    
 				    
